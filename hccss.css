@@ -1,0 +1,52 @@
+.chart {
+    min-width: 320px;
+    max-width: 970px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+div{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: center;}
+	
+	
+table {  
+    color: #333;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    width: 950px; 
+    border-collapse: 
+    collapse; border-spacing: 0; 
+	margin-left:auto; 
+    margin-right:auto;
+	border: none;
+}
+
+td, th {  
+    border: 1px solid transparent; /* No more visible border */
+    height: 30px; 
+    transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+th {  
+    background: #DFDFDF;  /* Darken header a bit */
+    font-weight: bold;
+}
+
+td {  
+    background: #FAFAFA;
+    text-align: center;
+}
+
+/* Cells in even rows (2,4,6...) are one color */        
+tr:nth-child(even) td { background: #F1F1F1; }   
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+tr:nth-child(odd) td { background: #FEFEFE; }  
+
+tr td:hover { background: #666; color: #FFF; }  
+/* Hover cell effect! */
+
+</style>
+<!-- http://doc.jsfiddle.net/use/hacks.html#css-panel-hack -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
