@@ -1,7 +1,5 @@
 /*
-The purpose of this demo is to demonstrate how multiple charts on the same page can be linked
-through DOM and Highcharts events and API methods. It takes a standard Highcharts config with a
-small variation for each data set, and a mouse/touch event handler to bind the charts together.
+HighCharts synchronized charts
 */
 
 $(function () {
